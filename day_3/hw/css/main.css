@@ -1,0 +1,71 @@
+body{
+    background-image: url("race-flag-7.gif");
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
+
+.f1logo{
+    max-width: 10%;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1{
+    margin: 1em;
+}
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+#racerDataForm{
+    font-weight: 600;
+}
+
+#season{
+    margin-right: 1em;
+}
+
+#submitButton{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.5em 0.3em 1em;
+    border-radius:0.5em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:600;
+    color: white;
+    text-align:center;
+    transition: all 0.2s;
+    background-color: #000000;
+}
+
+#submitButton:hover{
+    color:white;
+    background-color:red;
+}
+
+@media all and (max-width:30em){
+    #submitButton{
+        display:block;
+        margin:0.4em auto;
+    }
+}
+
+.table{
+    border: white;
+}
