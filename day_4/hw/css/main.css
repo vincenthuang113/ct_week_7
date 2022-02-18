@@ -1,0 +1,95 @@
+
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 1rem;
+
+}
+
+.container-form h1{
+    margin: 2rem;
+    padding-top: 2rem;
+}
+
+#location{
+    border-radius: 0.4rem;
+    width: 50%;
+    background-color: rgba(0,0,0,0.1);
+}
+
+#submitButton{
+    border-radius: 1.2rem;
+    background: transparent;
+    border: white 1px solid;
+    color:white;
+
+}
+
+
+/* weather */
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.weatherInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    background-repeat: cover;
+    border-radius: 2rem;
+    height: 25vh;
+    width: 20vw;
+    max-height: 100%;
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDMwNDJ8MHwxfHNlYXJjaHwxfHxza3l8ZW58MHx8fHwxNjQ1MjE4MzEz&ixlib=rb-1.2.1&q=80&w=400");
+}
+
+.big{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.information{
+    margin: 1.5rem;
+    margin-top: 1rem;
+}
+
+.weatherInfo p{
+    font-size: 0.8rem;
+}
+
+.information h1{
+    margin-right: 0;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.back{
+    margin: 1.5rem;
+}
+
+.bottom p{
+    margin: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+h6{
+    text-align: center;
+    font-size: 0.7rem;
+    margin-left: 14rem;
+
+}

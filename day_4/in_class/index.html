@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Poster Project</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <!-- start of poster container -->
+    <div class="container">
+        <button onclick="stopSnippet()">Stop Song</button>
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="getSong(this.id, event)">
+                <img src="images/office.jpg" alt="The Office Theme" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="getSong(this.id, event)">
+                <img src="images/kota.jpg" alt="Colorado" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="getSong(this.id, event)">
+                <img src="images/billions.jpeg" alt="Axe Capital A" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="getSong(this.id, event)">
+                <img src="images/spiderman.png" alt="Sunflower - Spider-Man" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="getSong(this.id, event)">
+                <img src="images/inter.jpg" alt="Cornfield Chase" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="getSong(this.id, event)">
+                <img src="images/totoro.webp" alt="My Neighbor Totoro" class="gallery__img">
+            </figure>
+
+        </div>
+    </div>
+</body>
+</html>
