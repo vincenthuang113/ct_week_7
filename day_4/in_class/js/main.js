@@ -3,8 +3,7 @@ let song;
 let playSong;
 
 // spotify client credentials
-const clientId = "3019683d85e2495e88200992d6829143"
-const clientSecret = "354a17e5d29f41a6b5f083e7694f8ecb"
+import {clientId, clientSecret} from '.gitignore'
 //put it in .env, dont push to github or host it
 
 const getToken = async () => {
